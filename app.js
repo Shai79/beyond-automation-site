@@ -271,11 +271,6 @@ function home() {
    <div class="top-hero-copy">
     <h1>Business Automation for <span>Smarter, Simpler Admin</span></h1>
     <a class="top-hero-cta" href="/book">Book a Free Consultation</a>
-    <ul class="hero-proof">
-     <li>${icon('clock')}<span>Free 30-minute call · No obligation</span></li>
-     <li>${icon('shield')}<span>Built in your own accounts</span></li>
-     <li>${icon('check')}<span>Human approval before sending</span></li>
-    </ul>
    </div>
    <aside class="hero-demo-wrap" id="call-demo" aria-label="Example AI call tool, animated">
     <div class="call-demo">
