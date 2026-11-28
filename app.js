@@ -270,27 +270,7 @@ function home() {
   <div class="wide top-hero-inner">
    <div class="top-hero-copy">
     <h1>Business Automation for <span>Smarter, Simpler Admin</span></h1>
-    <a class="top-hero-cta" href="/book">Book a Free Consultation</a>
    </div>
-   <aside class="hero-demo-wrap" id="call-demo" aria-label="Example AI call tool, animated">
-    <div class="call-demo">
-     <div class="call-demo-bar">
-      <span class="call-demo-live"><i aria-hidden="true"></i>LIVE</span>
-      <span class="call-demo-title">Example · Out-of-hours line</span>
-      <span class="call-demo-time" data-call-time>00:00</span>
-     </div>
-     <div class="call-demo-caller">
-      <span class="call-demo-icon" aria-hidden="true">${icon('phone')}</span>
-      <div class="call-demo-who">
-       <strong>Incoming call · Mobile</strong>
-       <small>Caller asking about a boiler service</small>
-      </div>
-      <div class="taper-wave" aria-hidden="true">${Array.from({length: 18}, (_, i) => `<i class="tw tw${i}"></i>`).join('')}</div>
-     </div>
-     <p class="call-demo-label">Live transcript</p>
-     <div class="call-demo-captions" data-call-captions></div>
-    </div>
-   </aside>
   </div>
  </section>
 

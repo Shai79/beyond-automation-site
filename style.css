@@ -248,6 +248,7 @@
 .top-hero-cta{display:inline-flex;align-items:center;justify-content:center;padding:20px 46px;border:1.5px solid #fffaf4;border-radius:14px;color:#fffaf4;font-size:1.15rem;font-weight:650;letter-spacing:.01em;transition:background .2s,color .2s,border-color .2s}
 .top-hero-cta:hover,.top-hero-cta:focus-visible{background:#e07a5f;border-color:#e07a5f;color:#2a1418}
 .top-hero-cta:focus-visible{outline:2px solid #fffaf4;outline-offset:3px}
+.is-home .top-hero-inner{grid-template-columns:minmax(0,1fr);justify-items:center;text-align:center}
 .hero-proof{list-style:none;margin:32px 0 0;padding:0;display:flex;flex-direction:row;flex-wrap:wrap;justify-content:center;gap:8px 22px;align-self:stretch;color:#f3e7dc;font-size:.9rem}
 .hero-proof li{display:flex;align-items:center;gap:10px}
 .hero-proof .icon{width:18px;height:18px;color:#e07a5f;flex:none}
