@@ -1,0 +1,33 @@
+Edit the words under each label. Leave the line in square brackets as it is.
+Save this file, then refresh the website.
+Under each person, write Name: and Business: on their own lines.
+Every other line under a person is one paragraph of their review. Blank lines are ignored.
+
+[heading]
+Three ways this can sound.
+
+[note]
+Placeholders, until a client is ready to be named.
+
+[luca]
+Name: Luca
+Business: Form & Function Training
+I was always on my phone between clients. Booking sessions, sending reminders, digging around for training plans.
+Now it's all taken care of. I even get the client's training plan sent to me before they walk through the door.
+I'm saving an hour or two a day. Less time on my phone, more time with my clients.
+
+[shona]
+Name: Shona
+Business: Shona’s Chair
+Sorting out staff rotas, finding cover and keeping track of supplies was taking up far too much of my time.
+What I liked about Beyond Automation was that they actually came to the shop and spent time understanding how we work.
+Now my staff rota practically sorts itself out, and I get notified when supplies are running low.
+Could I have bought something cheaper online? Probably. But this was built for my shop, and with their maintenance plan, it keeps improving as the business changes.
+
+[jason]
+Name: Jason
+Business: Pennington Grey LLP
+This Christmas I gave my paralegal the best present she's ever had from me. Her words, not mine. And it wasn't the hamper.
+She's finally spending more time on legal work than chasing clients and sorting out my diary.
+Being a few years from retirement, I was rather reluctant to embrace all this. Turns out it's easier than my phone.
+Should have done it years ago.

@@ -1,0 +1,65 @@
+Edit the words under each label. Leave the line in square brackets as it is.
+Save this file, then refresh the website. A blank line separates each item.
+The first line under a label is the headline. The lines after it are the sentence on the card.
+
+[heading]
+Turning AI into Real Business Value
+
+[lead]
+We Create Tools That:
+
+[calls]
+Answer calls 24/7
+An AI agent answers incoming calls, handles routine questions, books or reschedules appointments, sends confirmations and updates your calendar.
+
+[enquiries]
+Answer all enquiries
+An AI agent responds to enquiries across WhatsApp, email and your website regarding services and availability.
+
+[reminders]
+Send appointment reminders
+Automatic reminders are sent 24 hours before each appointment. If an appointment is rescheduled, your calendar is updated, and a new confirmation is sent.
+
+[reviews]
+Collect customer reviews
+Once a job is completed, a review request is sent with a link to your chosen review platform, followed by a gentle reminder after 72 hours if no review has been submitted.
+
+[quotes]
+Generate quotations
+Quotations are prepared using customer requirements, your services and pricing, ready for you to review, amend and approve before sending.
+
+[invoices]
+Chase outstanding invoices
+Unpaid invoices are tracked, and polite payment reminders are sent when needed. Reminders stop once payment is recorded.
+
+[documents]
+Automate document processing
+Forms, invoices and other documents are read automatically. Relevant information is extracted, missing details are flagged, and documents are filed in the appropriate location.
+
+[reporting]
+Create automatic business reports
+Information from your spreadsheets and business applications is used to generate regular reports showing sales, expenses, outstanding payments and other figures relevant to your business.
+
+[crm]
+Manage customer records (CRM)
+Keep contact details, previous conversations, enquiries, appointments and outstanding actions in one place, so you can easily access customer information and keep track of every enquiry.
+
+[management]
+Manage your business from one dashboard
+A central dashboard allows you to assign jobs, organise staff schedules, manage appointments, monitor work in progress and track outstanding tasks.
+
+[workflows]
+Connect your existing software
+Your email, calendar, spreadsheets, accounting software and other business applications share information automatically, reducing repetitive data entry and manual errors.
+
+[prospects]
+Generate new business leads
+Potential customers are identified based on your target market, industry and location. Relevant business and contact information is collected from permitted sources and organised for follow-up.
+
+[shaped]
+Build software around your business
+Custom applications, client portals and management platforms are designed and developed around the way your business operates, rather than requiring you to adapt to existing software.
+
+[unsure]
+Not sure where to start?
+Tell us about your business, how you operate and which tasks take up most of your time. Together, we can identify where AI and automation could make a practical difference.
