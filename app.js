@@ -290,13 +290,6 @@ function home() {
      <p class="call-demo-label">Live transcript</p>
      <div class="call-demo-captions" data-call-captions></div>
     </div>
-    <div class="demo-auto">
-     <ul>
-      <li data-auto><span class="auto-check" aria-hidden="true">${icon('check')}</span><span>Job logged in your system</span><span class="auto-state" aria-hidden="true"></span></li>
-      <li data-auto><span class="auto-check" aria-hidden="true">${icon('check')}</span><span>Diary slot held (Thu 19:00)</span><span class="auto-state" aria-hidden="true"></span></li>
-      <li data-auto><span class="auto-check" aria-hidden="true">${icon('check')}</span><span>Customer texted confirmation</span><span class="auto-state" aria-hidden="true"></span></li>
-     </ul>
-    </div>
    </aside>
   </div>
  </section>
