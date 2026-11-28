@@ -145,8 +145,8 @@ function applyServiceWriting(text) {
   if (next.line) item[3] = next.line;
  }
 }
-let reviewsHeading = 'Three ways this can sound.';
-let reviewsNote = 'Placeholders, until a client is ready to be named.';
+let reviewsHeading = '';
+let reviewsNote = '';
 const reviews = {
  luca: {name: 'Luca', business: 'Form & Function Training', paragraphs: [
   'Between clients, I was always on my phone. I’d book someone in, send them a reminder, then dig around for their training plan five minutes before they walked through the door.',
@@ -190,7 +190,7 @@ function applyReviews(text) {
 }
 function reviewsSection() {
  const people = [['luca', '/assets/luca.jpg?v=2'], ['shona', '/assets/shona.jpg?v=3'], ['jason', '/assets/jason.jpg?v=4']];
- return `<section class="section quotes"><div class="container"><div class="section-heading"><h2>${esc(reviewsHeading)}</h2><p>${esc(reviewsNote)}</p></div><div class="quote-grid">${people.map(([key, src]) => { const r = reviews[key]; return `<blockquote><img class="quote-face" src="${src}" width="84" height="84" alt=""><div class="quote-text">${r.paragraphs.map(p => `<p>${esc(p)}</p>`).join('')}</div><p class="quote-by"><span>${esc(r.name)}</span>${esc(r.business)}</p></blockquote>`; }).join('')}</div></div></section>`;
+ return `<section class="section quotes"><div class="container">${reviewsHeading || reviewsNote ? `<div class="section-heading">${reviewsHeading ? `<h2>${esc(reviewsHeading)}</h2>` : ''}${reviewsNote ? `<p>${esc(reviewsNote)}</p>` : ''}</div>` : ''}<div class="quote-grid">${people.map(([key, src]) => { const r = reviews[key]; return `<blockquote><img class="quote-face" src="${src}" width="84" height="84" alt=""><div class="quote-text">${r.paragraphs.map(p => `<p>${esc(p)}</p>`).join('')}</div><p class="quote-by"><span>${esc(r.name)}</span>${esc(r.business)}</p></blockquote>`; }).join('')}</div></div></section>`;
 }
 let config = {preview: true, schedulingConnected: false};
 try {config = await (await fetch('/site-config.json')).json();} catch {}
@@ -296,7 +296,6 @@ function home() {
      <div class="call-demo-captions" data-call-captions></div>
     </div>
     <div class="demo-auto">
-     <p class="demo-auto-head">${icon('layers')}<span>Then, automatically</span></p>
      <ul>
       <li data-auto><span class="auto-check" aria-hidden="true">${icon('check')}</span><span>Job logged in your system</span><span class="auto-state" aria-hidden="true"></span></li>
       <li data-auto><span class="auto-check" aria-hidden="true">${icon('check')}</span><span>Diary slot held (Thu 19:00)</span><span class="auto-state" aria-hidden="true"></span></li>

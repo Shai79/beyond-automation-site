@@ -3,12 +3,6 @@ Save this file, then refresh the website.
 Under each person, write Name: and Business: on their own lines.
 Every other line under a person is one paragraph of their review. Blank lines are ignored.
 
-[heading]
-Three ways this can sound.
-
-[note]
-Placeholders, until a client is ready to be named.
-
 [luca]
 Name: Luca
 Business: Form & Function Training
